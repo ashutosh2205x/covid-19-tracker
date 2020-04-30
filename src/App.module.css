@@ -1,6 +1,9 @@
 body {
   background: whitesmoke;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   display: flex;
   align-items: center;
