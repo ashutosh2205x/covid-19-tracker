@@ -5,6 +5,7 @@ import { Cards, Charts, Country } from "./components";
 import { Data } from "./api/api";
 import SARS from "./assets/SRS.png";
 import { Typography } from "@material-ui/core";
+import { Footer } from "./components/Footer/footer";
 
 class App extends React.Component {
   state = {
@@ -47,6 +48,8 @@ class App extends React.Component {
         <Cards data={data} />
         <Country handleCountryChange={this.handleCountryChange} />
         <Charts data={data} country={country} />
+        <Footer/>
+
       </div>
     );
   }
