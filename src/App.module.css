@@ -1,0 +1,53 @@
+body {
+  background: whitesmoke;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .corona {
+    animation: corona infinite 20s linear;
+  }
+}
+
+@keyframes corona {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.corona{
+  height: 35px;
+  width: 35px;
+}
+
+.titleheader{
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  border-bottom: 10px cadetblue solid;
+}
+
+.text{
+  font-family: "Roboto" !important;
+  margin-bottom: 200px;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+@media (max-width:770px){
+  .container{
+    margin: 0 2%
+  }
+}
