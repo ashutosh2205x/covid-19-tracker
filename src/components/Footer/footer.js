@@ -10,7 +10,7 @@ export const Footer =()=>{
          borderTop: "2px solid black"
      }}>
             <Typography color="textSecondary" gutterBottom>
-    Created by Shubhi Singh
+    Created by Ashutosh Bharti
   </Typography> 
      </div>
 
